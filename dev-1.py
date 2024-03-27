@@ -7,7 +7,10 @@ class practice:
             print(i)
     def index(self,t):
         return f"The character of the String is {self.n[t]} having index {t}"
+    def make_it_list(self):
+        return list(self.n)
 
-p1 = practice('Hello')
-p1.char_traverse()
-print(p1.index(2))
+p1 = practice('geeksforgeeks')
+print(p1.make_it_list())
+
+
