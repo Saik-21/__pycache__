@@ -14,7 +14,6 @@ class practice:
         for i,v in enumerate(self.n):
             d[i] = v
         return d
-            
 p1 = practice('Python')
 print(p1.make_it_dictionary())
 
