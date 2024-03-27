@@ -9,8 +9,13 @@ class practice:
         return f"The character of the String is {self.n[t]} having index {t}"
     def make_it_list(self):
         return list(self.n)
-
-p1 = practice('geeksforgeeks')
-print(p1.make_it_list())
+    def make_it_dictionary(self):
+        d = {}
+        for i,v in enumerate(self.n):
+            d[i] = v
+        return d
+            
+p1 = practice('Python')
+print(p1.make_it_dictionary())
 
 
